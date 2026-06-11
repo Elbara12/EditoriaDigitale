@@ -1,0 +1,132 @@
+/* stile.css — Newsletter scientifica "Scienza sotto pressione" */
+/* Stile accademico, compatto, formale */
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap');
+
+/* Reset base */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout principale */
+body {
+    font-family: 'Crimson Text', Georgia, serif;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #1a1a1a;
+    background-color: #fafaf8;
+    padding: 2rem 1rem;
+}
+
+/* Contenitore centrato stile rivista */
+article, main, .content, body > * {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/* Testata documento */
+header, .title-block {
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Titolo principale */
+h1.title, h1 {
+    font-family: 'Source Sans 3', Helvetica, sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #111;
+    margin-bottom: 0.3rem;
+}
+
+/* Autore e data */
+p.author, p.date,
+.author, .date {
+    font-family: 'Source Sans 3', Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 0.1rem;
+}
+
+/* Titoli sezione */
+h2 {
+    font-family: 'Source Sans 3', Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Titoli sottosezione */
+h3 {
+    font-family: 'Source Sans 3', Helvetica, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #222;
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragrafi */
+p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    hyphens: auto;
+    max-width: 680px;
+}
+
+/* Link */
+a {
+    color: #1a3a5c;
+    text-decoration: none;
+    border-bottom: 1px solid #a0b4c8;
+}
+
+a:hover {
+    color: #0d2236;
+    border-bottom-color: #0d2236;
+}
+
+/* Corsivo per nomi riviste */
+em {
+    font-style: italic;
+}
+
+/* Citazione fonte articolo */
+p > em:only-child,
+p:last-child {
+    font-size: 0.88rem;
+    color: #444;
+    font-style: italic;
+}
+
+/* Separatore tra sezioni */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+}
+
+/* Stampa */
+@media print {
+    body {
+        background: white;
+        font-size: 11pt;
+    }
+    a {
+        color: #000;
+        border-bottom: none;
+    }
+    h2, h3 {
+        page-break-after: avoid;
+    }
+}
