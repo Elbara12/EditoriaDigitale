@@ -35,3 +35,18 @@ type: "Text"
 format: "text/html, application/pdf"
 source: "PubMed Central (PMC); OpenAlex"
 relation: "https://github.com/Elbara12/EditoriaDigitale"
+header-includes: |
+  ```{=html}
+  <meta name="DC.title" content="Scienza sotto pressione">
+  <meta name="DC.creator" content="Matteo Baraggini">
+  <meta name="DC.subject" content="intelligenza artificiale, sanità, disinformazione, giornalismo scientifico">
+  <meta name="DC.description" content="Newsletter scientifica per giornalisti e comunicatori su AI in sanità e disinformazione medica.">
+  <meta name="DC.publisher" content="Scienza sotto pressione">
+  <meta name="DC.date" content="2026-07-09">
+  <meta name="DC.type" content="Text">
+  <meta name="DC.format" content="text/html">
+  <meta name="DC.language" content="it">
+  <meta name="DC.rights" content="CC BY 4.0 sulle fonti citate; testi originali dell'autore">
+  <meta name="DC.identifier" content="https://github.com/Elbara12/EditoriaDigitale">
+  <meta name="DC.source" content="PubMed Central (PMC); OpenAlex">
+  ```
