@@ -1,0 +1,37 @@
+# metadati.yaml — metadati Pandoc per "Scienza sotto pressione"
+title: "Scienza sotto pressione"
+subtitle: "AI in sanità e disinformazione medica, spiegate ai giornalisti"
+author: "Matteo Baraggini"
+date: "2026-07-09"
+lang: it
+
+keywords:
+  - intelligenza artificiale
+  - sanità
+  - disinformazione
+  - open access
+  - giornalismo scientifico
+
+description: >
+  Newsletter scientifica per giornalisti e comunicatori: sintesi divulgative
+  di articoli open access su intelligenza artificiale in sanità e
+  disinformazione medica online.
+
+abstract: >
+  Numero prototipale di "Scienza sotto pressione", newsletter che raccoglie
+  e sintetizza ricerche scientifiche recenti, pubblicate con licenza open
+  access, su intelligenza artificiale in sanità e disinformazione medica,
+  rivolta a giornalisti, operatori dell'informazione e comunicatori
+  scientifici.
+
+rights: >
+  © 2026 Matteo Baraggini. Testi editoriali originali dell'autore; le fonti
+  sintetizzate restano soggette alla licenza open access indicata in
+  ciascuna citazione (si veda il link diretto a PMC per ogni articolo).
+
+publisher: "Scienza sotto pressione"
+identifier: "https://github.com/Elbara12/EditoriaDigitale"
+type: "Text"
+format: "text/html, application/pdf"
+source: "PubMed Central (PMC); OpenAlex"
+relation: "https://github.com/Elbara12/EditoriaDigitale"

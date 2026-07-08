@@ -1,0 +1,5 @@
+{
+  "note": "Dati di esempio usati solo se OpenAlex non e' raggiungibile (--offline). Ancorati ai due estremi realmente riportati da Saleem et al. 2025 (158 pubblicazioni nel 2014, 731 nel 2024) con interpolazione per gli anni intermedi.",
+  "years": [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  "counts": [158, 190, 230, 275, 330, 390, 460, 545, 615, 680, 731]
+}

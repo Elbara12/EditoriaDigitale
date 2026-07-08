@@ -1,0 +1,8 @@
+# DOI delle 4 fonti effettivamente sintetizzate in articolo.md.
+# Verificabili in modo deterministico con:
+#   python3 scripts/search_articles.py --verify data/fonti_selezionate.txt
+# (lookup diretto per DOI, indipendente dal ranking testuale della ricerca)
+10.1002/hsr2.70312
+10.1186/s13690-024-01414-1
+10.2196/48620
+10.2196/28152
